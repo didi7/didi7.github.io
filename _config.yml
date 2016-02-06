@@ -1,0 +1,85 @@
+# Site settings
+title: 畅迪工作室
+SEOTitle: 畅迪工作室 | Changdi Studio
+header-img: img/home-bg.jpg
+email: 420294193@qq.com
+description: "畅行方舆 启迪未来"
+keyword: "福州公交 陈启迪 畅迪 海峡交通迷论坛"
+url: "http://changdi.hxbus.net"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+gems: [jekyll-paginate]
+
+
+
+# SNS settings
+RSS: false
+weibo_username:     didi7
+#zhihu_username:     false
+github_username:    didi7
+twitter_username:  hxtrainfans
+facebook_username:  qidi.chen.1
+
+
+
+# Build settings
+highlighter: pygments
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+#disqus_username: _your_disqus_short_name_
+
+# Duoshuo settings
+duoshuo_username: didi7
+# Share component is depend on Comment so we can NOT use share only.
+duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
+
+
+
+# Analytics settings
+# Baidu Analytics
+#ba_track_id: 
+# Google Analytics
+#ga_track_id: ''            # Format: UA-xxxxxx-xx
+#ga_domain: 
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "陈启迪，海峡交通迷论坛、海峡交通百科、畅迪工作室创始人，现就读于澳门科技大学资讯科技学院。"
+sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: false                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Friends
+friends: [
+    {
+        title: "海峡交通百科",
+        href: "http://www.hxbus.net"
+    },{
+        title: "海峡交通迷论坛",
+        href: "http://b.hxbus.net"
+    }
+]

@@ -1,0 +1,14 @@
+---
+layout:     post
+title:      "2016，畅迪工作室全新启航"
+subtitle:   "海峡10年，给你不一样的精彩"
+date:       2015-01-29 12:00:00
+author:     "didi7"
+header-img: "img/post-bg-railway.jpg"
+tags:
+    - 生活
+---
+
+> “Yeah It's on. ”
+
+
